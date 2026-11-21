@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="EcoVerse — four pillars keep Earth alive: forests, oceans, clean air and renewable energy.">
+<meta name="theme-color" content="#04120a">
+<title>Ecosystem — EcoVerse | Four Pillars Keep Earth Alive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header id="siteHeader">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="EcoVerse home">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22C12 22 4 16.5 4 9.5 4 5.9 6.9 3 10.5 3c.5 0 1 .06 1.5.17C12.6 3.06 13 3 13.5 3 17.1 3 20 5.9 20 9.5 20 16.5 12 22 12 22Z" fill="#22c55e"/><path d="M12 22V8" stroke="#04120a" stroke-width="1.6" stroke-linecap="round"/><path d="M12 12c-1.8-.4-3-1.6-3.4-3.4C10.4 9 11.6 10.2 12 12Zm0 3.5c1.8-.4 3-1.6 3.4-3.4-.4.4-1.6 1.6-3.4 3.4Z" fill="#a3e635"/></svg>
+      Eco<em>Verse</em>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ecosystem.html" class="active" aria-current="page">Ecosystem</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="habits.html">Habits</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="calculator.html">Calculate Footprint</a>
+    <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+
+<!-- ================= PAGE HEAD ================= -->
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">The Living System</span>
+    <h1>Four pillars keep Earth alive</h1>
+    <p>Everything is connected. A forest in one place shapes rain in another; the ocean feeds the air we breathe. Hover a card — it tilts in 3D.</p>
+  </div>
+</section>
+
+<!-- ================= PILLARS ================= -->
+<section class="section" style="padding-top:0">
+  <div class="wrap">
+    <div class="pillars">
+      <article class="pillar tilt reveal" data-tilt>
+        <div class="icon ic-forest">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 7 10h2.2L6 16h4v5h4v-5h4l-3.2-6H17L12 2Z"/></svg>
+        </div>
+        <h3>Forest</h3>
+        <p>Trees are the planet's lungs. They absorb CO&#8322;, hold soil together, shelter 80% of land species and seed the rain.</p>
+        <div class="mini">~3 trillion trees on Earth</div>
+      </article>
+      <article class="pillar tilt reveal" data-tilt>
+        <div class="icon ic-ocean">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 14c2.5 0 2.5 2 5 2s2.5-2 5-2 2.5 2 5 2 2.5-2 5-2v3c-2.5 0-2.5 2-5 2s-2.5-2-5-2-2.5 2-5 2-2.5-2-5-2v-3Zm0-6c2.5 0 2.5 2 5 2s2.5-2 5-2 2.5 2 5 2 2.5-2 5-2v3c-2.5 0-2.5 2-5 2s-2.5-2-5-2-2.5 2-5 2-2.5-2-5-2V8Z"/></svg>
+        </div>
+        <h3>Ocean</h3>
+        <p>The ocean covers 71% of the planet, stores most of its heat and carbon, and feeds billions of people.</p>
+        <div class="mini">71% of Earth's surface</div>
+      </article>
+      <article class="pillar tilt reveal" data-tilt>
+        <div class="icon ic-air">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 8h9a3 3 0 1 0-2.9-3.7A5 5 0 0 0 4.5 12H3a1 1 0 0 1 0-2h1.5A3.5 3.5 0 0 1 8 7.5 4.5 4.5 0 0 1 3 8Zm0 6h13a3 3 0 1 1-2.9 3.7A5 5 0 0 1 8.5 11H3a1 1 0 0 0 0 2h5.5A3.5 3.5 0 0 0 12 15.5 4.5 4.5 0 0 0 16 14H3Z" transform="translate(0 1)"/></svg>
+        </div>
+        <h3>Clean Air</h3>
+        <p>Plankton and forests produce about half of the oxygen we breathe. Clean air is a shared, fragile commons.</p>
+        <div class="mini">~50% of oxygen from the ocean</div>
+      </article>
+      <article class="pillar tilt reveal" data-tilt>
+        <div class="icon ic-energy">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a1 1 0 0 1 1 1v1.1a8 8 0 1 1-7.4 5.1 1 1 0 1 1 1.9-.6A6 6 0 1 0 12 5V3.5l-2 2.5-1.6-1.2L12 2Zm-1 8 1.5 4.5L9 14.5h2.6L11 19l4.5-6H13l1.5-3H11Z"/></svg>
+        </div>
+        <h3>Renewable Energy</h3>
+        <p>Sun, wind and water deliver thousands of times more energy than humanity uses — clean, silent and endless.</p>
+        <div class="mini">~30% of global electricity</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= IMPACT ================= -->
+<section class="section impact" id="impact">
+  <div class="wrap">
+    <span class="eyebrow reveal">The Planet in Numbers</span>
+    <h2 class="section-title reveal">Earth, by the numbers</h2>
+    <p class="section-sub reveal">Approximate figures from published research (trees: Crowther et al., Nature 2015; renewables: Ember 2024). The scale is the point — small actions multiply.</p>
+    <div class="stats">
+      <div class="stat tilt reveal" data-tilt>
+        <div class="num"><span data-count="3" data-decimals="0">0</span><small> trillion</small></div>
+        <p>Trees standing on Earth — about 400 per person</p>
+      </div>
+      <div class="stat tilt reveal" data-tilt>
+        <div class="num"><span data-count="71" data-decimals="0">0</span><small>%</small></div>
+        <p>Of the planet's surface is ocean — our blue heart</p>
+      </div>
+      <div class="stat tilt reveal" data-tilt>
+        <div class="num"><span data-count="50" data-decimals="0">0</span><small>%</small></div>
+        <p>Of the oxygen we breathe comes from the ocean</p>
+      </div>
+      <div class="stat tilt reveal" data-tilt>
+        <div class="num"><span data-count="30" data-decimals="0">0</span><small>%</small></div>
+        <p>Of global electricity already comes from renewables</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <div><strong style="color:var(--text)">EcoVerse</strong> — One Planet, One Future. Built with Three.js. Figures are approximate, for learning.</div>
+    <div>Source: <a href="https://github.com/Akbar-Lab-Droid/demo-web" target="_blank" rel="noopener">github.com/Akbar-Lab-Droid/demo-web</a></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
