@@ -2,7 +2,7 @@
 
 An interactive 3D website about Earth's eco-friendly ecosystem: a spinning Three.js planet with procedural continents, clouds, atmosphere glow, orbiting particles, floating leaves and a satellite — plus ecosystem pillars, planet stats, a carbon footprint calculator and eco habits.
 
-**Live on Vercel:** https://ecoverse.vercel.app
+**Live on Vercel:** https://ecoverse-umber.vercel.app
 
 ## Features
 
